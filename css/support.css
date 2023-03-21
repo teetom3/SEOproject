@@ -1,0 +1,64 @@
+
+.videoDiv,
+.iconText {
+  margin-bottom: 7em;
+}
+.contenueSupport {
+ margin: 4em auto; 
+ padding: 1em 4em;
+ text-align: center;
+}
+
+.videoDiv > h2 {
+ margin-bottom: 2em;
+}
+
+/* les icons de page support commence */
+.titreIcon {
+  color: snow;
+  background-color: #0F4C81;
+  margin: 5em 32%;
+  padding: .5em;
+  width: 35%;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.fig {
+  width: 25%;
+  margin-bottom: 7em;
+}
+.icon {
+  margin-bottom: 2em;
+}
+.icon1,
+.icon4 {
+  margin-bottom: 3em;
+}
+.fig > figcaption {
+  text-align: center;
+  padding: 2em;
+}
+
+.repaire {
+  margin-bottom: 4em;
+  padding: 1em 15em;
+}
+.teleMail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tele,
+.mail {
+  color: snow;
+  background-color: #0F4C81;
+  margin-bottom: 3em;
+  padding: .5em;
+  width: 33%;
+}

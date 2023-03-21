@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a:hover {
+  color: #0F4C81;
+
+  transition: .3s;
+}
+
+/* typographies */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.title {
+  font-size: 1.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+} 
+
+.bg-light {
+  background-color: #B8D4D4;
+}

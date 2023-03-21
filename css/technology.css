@@ -1,0 +1,36 @@
+.technology {
+  margin-top: 100px;
+  padding: 70px 0 0 0;
+
+  background-color: #B8D4D4;
+}
+
+.technology .container {
+  margin-bottom: 40px;
+}
+
+.tech-img {
+  height: 400px;
+
+  background: center / cover no-repeat url(/images/header-3.jpg);
+}
+
+
+@media only screen and (min-width: 768px) {
+  .technology {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .technology .container {
+    margin: 70px 20px 0 15px;
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+  .technology .container {
+    margin: 70px 20px 0 80px;
+  }
+}

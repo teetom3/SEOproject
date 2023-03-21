@@ -1,0 +1,47 @@
+.footer {
+  padding-top: 40px;
+  color: #fff;
+
+  background-color: #031322;
+}
+
+.footer a {
+  padding: 10px 0;
+}
+
+.rubriques a {
+  display: block;
+}
+
+.rubriques h3 {
+  font-weight: 800;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.footer-social-networks {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+
+  background-color: #0F4C81;
+}
+
+.footer-social-networks a {
+  padding: 0 10px;
+}
+
+.footer-social-networks a:hover {
+  color:#031322;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .rubrique-3 {
+    text-align: right;
+  }
+}

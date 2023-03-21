@@ -1,0 +1,130 @@
+.header {
+  height: 600px;
+
+  background: center / cover no-repeat url(../images/header.jpg);
+}
+
+.header-1 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-1.jpg);
+}
+
+.header-2 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-2.jpg);
+}
+
+.header-3 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-3.jpg);
+}
+
+.header-4 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-4.jpg);
+}
+
+.header-5 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-5.jpg);
+}
+
+.header-6 {
+  background: linear-gradient(#194b8165, #194b8165),
+  center / cover no-repeat url(../images/header-6.jpg);
+}
+
+.header-small {
+  height: 400px;
+}
+
+.navbar {
+  text-align: center;
+
+  background: #FFF;
+
+  border-bottom: 10px solid #0F4C81;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.social-networks a {
+  padding: 0 10px;
+}
+
+a.last-nav {
+  padding-right: 0;
+}
+
+.nav {
+  margin: 10px 0;
+}
+
+.container-navbar {
+  height: 100%;
+}
+
+.navbar img {
+  width: 50px;
+  padding-top: 10px;
+}
+
+.social-networks {
+  margin-top: 10px;
+}
+
+.prenstation-title {
+  margin-top: 50px;
+  font-size: 3em;
+  font-weight: 800;
+  color: #FFF;
+}
+
+.active {
+  color: #0F4C81;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+
+
+    z-index: 2;
+  }  
+
+  .navbar img {
+    padding-top: 0;
+  }
+
+  .header {
+    margin-top: 110px;
+  }
+
+  .container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-networks {
+    text-align: right;
+  }
+
+  .presentation {
+    padding-top: 150px;
+  }
+
+  .prenstation-title {
+    font-size: 5em;
+    font-weight: 800;
+    color: #FFF;
+  }
+}
